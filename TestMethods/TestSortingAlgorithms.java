@@ -15,7 +15,7 @@ public class TestSortingAlgorithms {
         long beginTime = System.currentTimeMillis();
         // Assign array
         try {
-            FileReader fr = new FileReader("random_numbers.txt");
+            FileReader fr = new FileReader("TestMethods/random_numbers.txt");
             BufferedReader br = new BufferedReader(fr);
             String line = br.readLine();
             for (int i = 0; i < lysie.length; i++) {
