@@ -11,7 +11,7 @@ public class RNG {
         FileWriter fw = new FileWriter("random_number2.txt");
 
         while (i < 10_000_000) {
-            fw.write(generator.nextInt(1_000_000) +" ");
+            fw.write(generator.nextInt(10_000_000) +" ");
             i++;
         }
     } catch (IOException e) {

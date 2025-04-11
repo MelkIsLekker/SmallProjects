@@ -45,12 +45,12 @@ public class TestSortingAlgorithms {
               test4 = lysie.clone(), test5 = lysie.clone(), test6 = lysie.clone();
 
 
-        //timeMethod(BUBBLE, test1, true);
-        //System.out.println();
-        //timeMethod(SELECTION, test2, true);
-        //System.out.println();
-        //timeMethod(INSERTION, test3, false);
-        //System.out.println();
+        // timeMethod(BUBBLE, test1, true);
+        // System.out.println();
+        // timeMethod(SELECTION, test2, true);
+        // System.out.println();
+        // timeMethod(INSERTION, test3, false);
+        // System.out.println();
         timeMethod(SHELL, test4, true);
         System.out.println();
         timeMethod(MERGE, test5);
