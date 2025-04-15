@@ -1,101 +1,121 @@
-Number,Movie,Your Rating (1-10)
-1,The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005),
-2,Chariots of Fire (1981),
-3,The Sound of Music (1965),
-4,It’s a Wonderful Life (1946),
-5,The Princess Bride (1987),
-6,Soul Surfer (2011),
-7,The Secret Garden (1993),
-8,Heaven Is for Real (2014),
-9,Miracle on 34th Street (1947),
-10,The Parent Trap (1998),
-11,Little Women (2019),
-12,The Bishop’s Wife (1947),
-13,Babe (1995),
-14,Paddington (2014),
-15,Remember the Titans (2000),
-16,The Blind Side (2009),
-17,Mary Poppins (1964),
-18,The Music Man (1962),
-19,Enchanted (2007),
-20,The Princess Diaries (2001),
-21,Moana (2016),
-22,Frozen (2013),
-23,Toy Story (1995),
-24,Finding Nemo (2003),
-25,Up (2009),
-26,How to Train Your Dragon (2010),
-27,The Lego Movie (2014),
-28,Coco (2017),
-29,The Incredibles (2004),
-30,Ratatouille (2007),
-31,Singin’ in the Rain (1952),
-32,The Wizard of Oz (1939),
-33,Ben-Hur (1959),
-34,Life Is Beautiful (1997),
-35,Pollyanna (1960),
-36,Cheaper by the Dozen (2003),
-37,Mrs. Doubtfire (1993),
-38,The Pursuit of Happyness (2006),
-39,Akeelah and the Bee (2006),
-40,The Rookie (2002),
-41,Secondhand Lions (2003),
-42,The Sandlot (1993),
-43,National Treasure (2004),
-44,Night at the Museum (2006),
-45,Jumanji (1995),
-46,Honey, I Shrunk the Kids (1989),
-47,Home Alone (1990),
-48,The Karate Kid (1984),
-49,Matilda (1996),
-50,Annie (1982),
-51,Miracle (2004),
-52,Seabiscuit (2003),
-53,The Greatest Showman (2017),
-54,Bedknobs and Broomsticks (1971),
-55,Chitty Chitty Bang Bang (1968),
-56,The Swiss Family Robinson (1960),
-57,The Love Bug (1968),
-58,Herbie: Fully Loaded (2005),
-59,The Muppet Movie (1979),
-60,Charlotte’s Web (2006),
-61,Because of Winn-Dixie (2005),
-62,The Horse Whisperer (1998),
-63,Fly Away Home (1996),
-64,Bridge to Terabithia (2007),
-65,A Little Princess (1995),
-66,The Shop Around the Corner (1940),
-67,You’ve Got Mail (1998),
-68,Sleepless in Seattle (1993),
-69,While You Were Sleeping (1995),
-70,The Proposal (2009),
-71,27 Dresses (2008),
-72,The Holiday (2006),
-73,My Big Fat Greek Wedding (2002),
-74,Mamma Mia! (2008),
-75,The Guernsey Literary and Potato Peel Pie Society (2018),
-76,The Shack (2017),
-77,War Room (2015),
-78,Courageous (2011),
-79,Fireproof (2008),
-80,God’s Not Dead (2014),
-81,I Can Only Imagine (2018),
-82,The Star (2017),
-83,Jonah: A VeggieTales Movie (2002),
-84,Joseph: King of Dreams (2000),
-85,The Hiding Place (1975),
-86,The Ten Commandments (1956),
-87,The Passion of the Christ (2004),
-88,The Nativity Story (2006),
-89,Paul: Apostle of Christ (2018),
-90,The Case for Christ (2017),
-91,Unbroken: Path to Redemption (2018),
-92,Miracles from Heaven (2016),
-93,Same Kind of Different as Me (2017),
-94,Woodlawn (2015),
-95,The Ultimate Gift (2006),
-96,Faith Like Potatoes (2006),
-97,The Grace Card (2010),
-98,October Baby (2011),
-99,Do You Believe? (2015),
-100,The Cross and the Switchblade (1970),
+Number,Title,Year,Rating,DeepSeek_Recommendation,Genre
+1,The Chronicles of Narnia: The Lion the Witch and the Wardrobe,2005,-1,7,Fantasy Adventure Family
+2,Chariots of Fire,1981,-1,5,Sports Drama Historical
+3,The Sound of Music,1965,7,9,Musical Family Historical
+4,Its a Wonderful Life,1946,-1,7,Drama Fantasy
+5,The Princess Bride,1987,8,10,Fantasy Adventure Romance
+6,Soul Surfer,2011,-1,5,Sports Drama
+7,The Secret Garden,1993,-1,7,Fantasy Family Drama
+8,Heaven Is for Real,2014,-1,3,Drama Family
+9,Miracle on 34th Street,1947,-1,7,Drama Family Holiday
+10,The Parent Trap,1998,4,4,Comedy Family
+11,Little Women,2019,-1,8,Drama Romance
+12,The Bishops Wife,1947,-1,6,Drama Romance Fantasy
+13,Babe,1995,3,4,Family Comedy
+14,Paddington,2014,6,8,Family Comedy
+15,Remember the Titans,2000,-1,6,Sports Drama
+16,The Blind Side,2009,-1,6,Sports Drama
+17,Mary Poppins,1964,6,9,Musical Fantasy Family
+18,The Music Man,1962,-1,6,Musical Comedy
+19,Enchanted,2007,-1,9,Romantic Comedy Fantasy
+20,The Princess Diaries,2001,8,8,Comedy Family
+21,Moana,2016,7,9,Animation Adventure
+22,Frozen,2013,6,8,Animation Musical
+23,Toy Story,1995,6,9,Animation Comedy
+24,Finding Nemo,2003,8,10,Animation Adventure
+25,Up,2009,8,10,Animation Adventure
+26,How to Train Your Dragon,2010,6,9,Animation Adventure
+27,The Lego Movie,2014,6,8,Animation Comedy
+28,Coco,2017,7,9,Animation Adventure
+29,The Incredibles,2004,7,9,Animation Action
+30,Ratatouille,2007,9,10,Animation Comedy
+31,Singin in the Rain,1952,-1,9,Musical Romance
+32,The Wizard of Oz,1939,-1,8,Musical Fantasy
+33,Ben-Hur,1959,-1,5,Historical Drama
+34,Life Is Beautiful,1997,-1,7,Drama Comedy
+35,Pollyanna,1960,-1,6,Drama Family
+36,Cheaper by the Dozen,2003,2,3,Comedy Family
+37,Mrs. Doubtfire,1993,-1,6,Comedy Family
+38,The Pursuit of Happyness,2006,5,5,Drama
+39,Akeelah and the Bee,2006,-1,6,Drama Family
+40,The Rookie,2002,-1,5,Sports Drama
+41,Secondhand Lions,2003,-1,6,Comedy Drama
+42,The Sandlot,1993,-1,6,Comedy Sports
+43,National Treasure,2004,7,7,Adventure Mystery
+44,Night at the Museum,2006,3,4,Comedy Adventure
+45,Jumanji,1995,-1,6,Adventure Fantasy
+46,Honey I Shrunk the Kids,1989,0,2,Comedy Family
+47,Home Alone,1990,3,4,Comedy Family
+48,The Karate Kid,1984,7,7,Sports Drama
+49,Matilda,1996,3,5,Comedy Fantasy
+50,Annie,1982,-1,5,Musical Family
+51,Miracle,2004,-1,5,Sports Drama
+52,Seabiscuit,2003,-1,5,Sports Drama
+53,The Greatest Showman,2017,8,9,Musical Drama
+54,Bedknobs and Broomsticks,1971,-1,6,Musical Fantasy
+55,Chitty Chitty Bang Bang,1968,-1,6,Musical Family
+56,The Swiss Family Robinson,1960,-1,6,Adventure Family
+57,The Love Bug,1968,-1,5,Comedy Family
+58,Herbie: Fully Loaded,2005,-1,5,Comedy Family
+59,The Muppet Movie,1979,-1,6,Comedy Musical
+60,Charlottes Web,2006,2,3,Family Drama
+61,Because of Winn-Dixie,2005,-1,5,Family Drama
+62,The Horse Whisperer,1998,-1,5,Drama Romance
+63,Fly Away Home,1996,-1,6,Family Drama
+64,Bridge to Terabithia,2007,-1,4,Fantasy Drama
+65,A Little Princess,1995,-1,6,Fantasy Drama
+66,The Shop Around the Corner,1940,-1,7,Romantic Comedy
+67,Youve Got Mail,1998,-1,8,Romantic Comedy
+68,Sleepless in Seattle,1993,-1,8,Romantic Comedy
+69,While You Were Sleeping,1995,-1,9,Romantic Comedy Drama
+70,The Proposal,2009,9,10,Romantic Comedy
+71,27 Dresses,2008,-1,6,Romantic Comedy
+72,The Holiday,2006,-1,8,Romantic Comedy
+73,My Big Fat Greek Wedding,2002,-1,7,Romantic Comedy
+74,Mamma Mia,2008,8,8,Musical Romance
+75,The Guernsey Literary and Potato Peel Pie Society,2018,-1,7,Historical Drama
+76,The Shack,2017,-1,3,Drama
+77,War Room,2015,-1,3,Drama
+78,Courageous,2011,-1,3,Drama
+79,Fireproof,2008,-1,3,Drama
+80,Gods Not Dead,2014,-1,2,Drama
+81,I Can Only Imagine,2018,-1,3,Drama
+82,The Star,2017,-1,3,Animation Family
+83,Jonah: A VeggieTales Movie,2002,-1,3,Animation Comedy
+84,Joseph: King of Dreams,2000,-1,3,Animation Drama
+85,The Hiding Place,1975,-1,3,Historical Drama
+86,The Ten Commandments,1956,-1,4,Historical Drama
+87,The Passion of the Christ,2004,-1,2,Historical Drama
+88,The Nativity Story,2006,-1,3,Historical Drama
+89,Paul: Apostle of Christ,2018,-1,3,Historical Drama
+90,The Case for Christ,2017,-1,3,Drama
+91,Unbroken: Path to Redemption,2018,-1,3,Drama
+92,Miracles from Heaven,2016,-1,3,Drama
+93,Same Kind of Different as Me,2017,-1,3,Drama
+94,Woodlawn,2015,-1,3,Sports Drama
+95,The Ultimate Gift,2006,-1,3,Drama
+96,Faith Like Potatoes,2006,-1,3,Drama
+97,The Grace Card,2010,-1,3,Drama
+98,October Baby,2011,-1,3,Drama
+99,Do You Believe,2015,-1,3,Drama
+100,The Cross and the Switchblade,1970,-1,3,Drama
+101,While You Were Sleeping,1995,-1,9,Romantic Comedy Drama
+102,Ever After,1998,-1,10,Romantic Comedy Fantasy
+103,The Magic of Ordinary Days,2005,-1,8,Romantic Drama Historical
+104,Newsies,1992,-1,7,Musical Drama
+105,The Secret Life of Walter Mitty,2013,-1,9,Adventure Drama Comedy
+106,Sister Act,1992,-1,7,Comedy Musical
+107,The Mitchells vs The Machines,2021,-1,10,Animation Comedy Family
+108,Klaus,2019,-1,10,Animation Family Holiday
+109,The Peanuts Movie,2015,-1,8,Animation Comedy Family
+110,A Dogs Purpose,2017,-1,5,Family Drama
+111,The Princess Switch,2018,-1,7,Romantic Comedy Holiday
+112,The Holiday,2006,-1,8,Romantic Comedy
+113,The Fundamentals of Caring,2016,-1,7,Comedy Drama
+114,Paddington 2,2017,-1,9,Family Comedy
+115,Jumanji: Welcome to the Jungle,2017,6,6,Adventure Comedy
+116,Julie & Julia,2009,-1,7,Comedy Drama
+117,The Polar Express,2004,-1,8,Animation Family Holiday
+118,Cinderella,2015,-1,8,Romantic Fantasy
+119,The Chosen Christmas Special,2021,-1,5,Drama Holiday
+120,The Ultimate Life,2013,-1,5,Drama
