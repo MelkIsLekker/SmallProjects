@@ -2,6 +2,7 @@ package SortMethods;
 
 import java.util.Arrays;
 
+
 public enum SortingMethod {
     BUBBLE,
     INSERTION,
